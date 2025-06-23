@@ -26,3 +26,35 @@
     border: 3px dashed black;
     border-radius: 10px 50px 10px 10px;
 }
+/* Position */
+    /* fixed
+    static
+    sticky */
+/* #head{
+    position: fixed;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+} */
+/* #head1{
+    position: fixed;
+    top: 0px;
+    left: 0px
+} */
+
+/* relative
+absolute */
+.boxes{
+    background-color: seagreen;
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
+.box1{
+    background-color: paleturquoise;
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
