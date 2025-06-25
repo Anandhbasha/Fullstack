@@ -1,7 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif
 }
 #head{
     background-color: purple;
@@ -18,9 +21,9 @@
     background-color: aqua;
     width: 300px;
     height: 200px;
-    /* margin-left: 100px;
+    margin-left: 100px;
     margin-top: 100px;
-    margin-bottom: 100px; */
+    margin-bottom: 100px;
     margin: 100px 50px 500px 800px;
     padding: 50px 10px 60px 50px;
     border: 3px dashed black;
@@ -44,7 +47,7 @@
 
 /* relative
 absolute */
-.boxes{
+/* .boxes{
     background-color: seagreen;
     height: 300px;
     width: 500px;
@@ -57,4 +60,55 @@ absolute */
     position: absolute;
     top: 100px;
     left: 150px;
+} */
+/* text properties */
+/* .h1{ 
+    background-image: url('./pexels-anjana-c-169994-674010.jpg');
+}
+.h1{
+    color: blue;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    line-height: 10px;
+    font-size: 60px;
+    font-weight: 900;
+    font-style: oblique;
+}
+.box1es{
+    height: 100vh;
+    width: 1000px;
+    background: linear-gradient(rgba(128, 50, 50, 0.373),rgba(31, 20, 20, 0.432),rgba(56, 56, 198, 0.277)),url('./pexels-anjana-c-169994-674010.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    z-index: 100;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: red;
+    text-align: center;
+} */
+ .image{
+    width: 250px;
+    height: 250px;
+    /* overflow-y: hidden; */
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 4px 5px 3px 2px black;
+ }
+ .image > img{
+    width: 100%;
+    height: 100%;
+ }
+
+ .image:hover{
+    box-shadow: 4px 5px 3px 2px rgb(255, 251, 0);
+ }
+ .image::before{
+    content: "peacock feather";
+ }
+.image >img:nth-child(3){
+    box-shadow: 4px 5px 3px 2px rgb(243, 4, 4);
 }
